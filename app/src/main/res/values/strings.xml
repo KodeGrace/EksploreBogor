@@ -1,3 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EksploreBogor</string>
+    <string name="text_nama">nama</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="imege_view">Image View</string>
+    <string name="wisataalam">Wisata Alam</string>
+
+    <string-array name="data_name_alam">
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+        <item>Wisata Alam</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>His goal is to be like his dad, Norman—a Gym Leader he really looks up to. He is a bit mischievous, but he is serious about Pokémon battles.</item>
+        <item>A genius pro golfer with a stoic personality who competes all over the world, she is also a diligent member of the Elite Four who never neglects Pokémon battles.</item>
+        <item>A stoic Trainer in pursuit of strength, he conceals his burning desire to grow stronger and plays it cool outwardly.</item>
+        <item>This hot-blooded young lady loves trends, laughter, and, most of all, Pokémon battles. She’s on a journey to grow stronger wherever she goes.</item>
+        <item>This cheerful and friendly Trainer has an insatiable sense of adventure and absolute confidence in her battling skills.</item>
+        <item>This highly curious, active young Trainer cherishes the bonds she has with her Pokémon. She is always doting on them.</item>
+        <item>A lover of Ice-type Pokémon and a family man, this Gym Leader cried when he saw the Brycen-Man movie and became a huge fan.</item>
+    </string-array>
+
+    <integer-array name="data_foto_alam">
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+        <item>@drawable/wisataalam</item>
+    </integer-array>
 </resources>

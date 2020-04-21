@@ -133,7 +133,7 @@
                     android:layout_height="150dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginLeft="5dp"
-                    app:cardElevation="5dp"
+                    app:cardElevation="7dp"
                     app:cardCornerRadius="10dp" >
 
                     <LinearLayout

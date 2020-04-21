@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.eksplorebogor">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="Explore Bogor">
+        <dist:delivery>
+            <dist:on-demand />
+        </dist:delivery>
+
+        <dist:fusing dist:include="true" />
+    </dist:module>
 
     <application
         android:allowBackup="true"
@@ -9,11 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".wisata_budaya"></activity>
-        <activity android:name=".wisata_buatan" />
-        <activity android:name=".wisata_bahari" />
-        <activity android:name=".wisata_alam" />
-        <activity android:name=".home" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".detailActivity" />
+        <activity android:name=".home" />
+        <activity android:name=".wisata_budaya" />
+        <activity android:name=".wisata_buatan" />
+        <activity android:name=".wisata_bahari" />
+        <activity android:name=".wisata_alam" />
     </application>
 
 </manifest>
